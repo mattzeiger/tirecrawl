@@ -1,15 +1,8 @@
 # nodemysql
 
-A starter node app that is a basic CRUD for a Customer DB in MySQL.
+A crawler of the tire finder API
 
-Libraries used:
-- Node
-- Express (express-myconnection, mysql)
-- Bootstrap
-
+Create a MySQL DB, import the sql file, and update the connection at the top of tire_crawl.js before running
 
 Run via:
-- node app.js
-
-Manage MySQL connection settings in app.js, you'll need a basic customer table:
-- CREATE table customer (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, name varchar(255), address varchar(255), email varchar(255), phone varchar(255));
+- node tire_crawl.js
